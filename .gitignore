@@ -1,0 +1,40 @@
+# Virtual Environment
+horillavenv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+db.sqlite3
+/media/
+/staticfiles/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Specific files
+2fa_qr_code.png
+*.md.backup
